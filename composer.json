@@ -1,0 +1,21 @@
+{
+  "name": "carno-php/psr7",
+  "license": "MIT",
+  "provide": {
+    "psr/http-message-implementation": "1.0"
+  },
+  "require": {
+    "psr/http-message": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carno\\HTTP\\Standard\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
